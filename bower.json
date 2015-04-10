@@ -1,6 +1,6 @@
 {
-  "name": "chrome-app-window",
-  "homepage": "https://github.com/jarrodek/polymer-chrome-apps",
+  "name": "chrome-window",
+  "homepage": "https://github.com/jarrodek/chrome-window",
   "keywords": [
     "webcomponents", "polymer", "chrome-apps", "chrome"
   ],
