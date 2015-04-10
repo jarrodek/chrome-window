@@ -258,7 +258,7 @@ Polymer('chrome-window', {
 
       // it looks like code below doeasn't work. TODO: cancel fullscreen programatically.
 
-      var defaultview = this.window.contentWindow.document.defaultView
+      var defaultview = this.window.contentWindow.document.defaultView;
       var keyboardEvent = document.createEvent("KeyboardEvent");
       Object.defineProperty(keyboardEvent, 'keyCode', {
         get : function() {
