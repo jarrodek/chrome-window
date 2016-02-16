@@ -7,9 +7,14 @@ browser windows. See the Window State Sample for a demonstration of these
 options.
 
 -->
-
-<polymer-element name="chrome-window" attributes="url name frame state windowhidden maximized minimized">
+<dom-module id="chrome-window">
   <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
   </template>
   <script src="chrome-window.js"></script>
-</polymer-element>
+</dom-module>

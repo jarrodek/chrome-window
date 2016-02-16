@@ -1,12 +1,22 @@
 {
   "name": "chrome-window",
+  "version": "1.1.1",
+  "license": "LICENSE.txt",
+  "description": "A Chrome window API in a web component.",
+  "authors": [
+    "Pawel Psztyc"
+  ],
   "homepage": "https://github.com/jarrodek/chrome-window",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jarrodek/chrome-window.git"
+  },
   "keywords": [
     "webcomponents", "polymer", "chrome-apps", "chrome"
   ],
-  "private": true,
+  "private": false,
   "dependencies": {
-    "polymer": "Polymer/polymer#master"
+    "polymer": "Polymer/polymer#^1.2.0"
   },
   "ignore": [
     "externs/**",
